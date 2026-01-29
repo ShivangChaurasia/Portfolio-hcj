@@ -10,15 +10,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <script src="https://unpkg.com/lottie-web@5.12.2/build/player/lottie.min.js"></script>
-  
-  
+
+
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  
+
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <title>Shivang Chaurasia | Full Stack Developer</title>
-  
+
   <style>
       :root {
           --primary: #3b82f6;
@@ -27,7 +27,7 @@
       --dark: #0f172a;
       --light: #f1f5f9;
     }
-    
+
     body {
         font-family: "Inter", system-ui, sans-serif;
       background-color: var(--dark);
@@ -35,27 +35,27 @@
       scroll-behavior: smooth;
       overflow-x: hidden;
     }
-    
+
     /* Custom scrollbar */
     ::-webkit-scrollbar {
       width: 8px;
     }
-    
+
     ::-webkit-scrollbar-track {
         background: #1e293b;
     }
-    
+
     ::-webkit-scrollbar-thumb {
         background: #475569;
       border-radius: 4px;
     }
-    
+
     /* Typing animation */
     .typing-container {
         display: inline-block;
       position: relative;
     }
-    
+
     .typing-cursor {
       display: inline-block;
       width: 3px;
@@ -485,7 +485,7 @@
 
     <!-- ==================== TRAINING ================== -->
     <section class="px-6 md:px-20 py-16 md:py-24 bg-gradient-to-b from-slate-900 to-slate-800 bg-slate-800">
-        <div class="ml-[200px] w-[1150px] flex border border-slate-700 rounded-xl space-x-10 p-10">
+        <div class="ml-[200px] w-[1150px] flex border bg-gradient-to-r  from-slate-900 to-slate-700 rounded-xl space-x-10 p-10">
           <div class="p-6">
             <h3 class="text-3xl ml-20 font-bold text-white mb-4">Training</h3>
             <div class="mb-4 pb-4 ml-20 border-slate-700">
@@ -624,12 +624,12 @@
             
             <form class="space-y-6">
               <div>
-                <label class="block text-slate-400 mb-2" for="name">Name</label>
+                <label class="block text-slate-400 mb-2" for="name" required>Name</label>
                 <input type="text" id="name" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Your name">
               </div>
               
               <div>
-                <label class="block text-slate-400 mb-2" for="email">Email</label>
+                <label class="block text-slate-400 mb-2" for="email" required>Email</label>
                 <input type="email" id="email" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="your.email@example.com">
               </div>
               
