@@ -2,7 +2,7 @@
 
 This is my personal portfolio website built using **HTML, CSS, and JavaScript**.  
 It showcases my skills, projects, and background as a developer in a clean and responsive design.
-
+**Live Link** : https://shivangchaurasia.github.io/Portfolio-hcj/
 ---
 
 ## 📌 About the Project
@@ -39,12 +39,12 @@ This project is fully responsive and works across desktops, tablets, and mobile 
 ## 🚀 How to Run Locally
 
 1. Clone the repository:
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/ShivangChaurasia/Portfolio-hcj.git
 
 2. Navigate to the project folder:
-   cd your-repo-name
+   cd Portfolio-hcj
 
-3. Open `index.html` in your browser.
+3. Open `index.html` inside docs folder in your browser.
 
 ---
 
