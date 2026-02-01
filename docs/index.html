@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./Assets/portfolio_icon.png" type="image/x-icon">
 
-  <!-- Fonts -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -65,29 +66,29 @@
       animation: blink 1s infinite;
       vertical-align: text-bottom;
     }
-    
+
     @keyframes blink {
         0%, 50% { opacity: 1; }
         51%, 100% { opacity: 0; }
     }
-    
+
     /* Gradient border */
     .gradient-border {
       border: 2px solid transparent;
       background: linear-gradient(var(--dark), var(--dark)) padding-box,
       linear-gradient(135deg, var(--primary), #8b5cf6) border-box;
     }
-    
+
     /* Section transitions */
     section {
         transition: all 0.3s ease;
     }
-    
+
     /* Hover effects */
     .card-hover {
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
-    
+
     .card-hover:hover {
         transform: translateY(-5px);
       box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
@@ -126,6 +127,7 @@
         <a class="text-white font-medium hover:text-blue-400 transition-colors duration-200 nav-link" href="#tech-stack">Tech Stack</a>
         <a class="text-white font-medium hover:text-blue-400 transition-colors duration-200 nav-link" href="#projects">Projects</a>
         <a class="text-white font-medium hover:text-blue-400 transition-colors duration-200 nav-link" href="#about">About</a>
+        <a class="text-white font-medium hover:text-blue-400 transition-colors duration-200 nav-link" href="#training">Training</a>
       <a class="text-white font-medium hover:text-blue-400 transition-colors duration-200 nav-link" href="#education">Education</a>
       <a class="text-white font-medium hover:text-blue-400 transition-colors duration-200 nav-link" href="#contact">Contact</a>
       
@@ -150,6 +152,7 @@
       <a class="text-white font-medium hover:text-blue-400 transition-colors duration-200 py-2 nav-link" href="#tech-stack">Tech Stack</a>
       <a class="text-white font-medium hover:text-blue-400 transition-colors duration-200 py-2 nav-link" href="#projects">Projects</a>
       <a class="text-white font-medium hover:text-blue-400 transition-colors duration-200 py-2 nav-link" href="#about">About</a>
+        <a class="text-white font-medium hover:text-blue-400 transition-colors duration-200 nav-link" href="#training">Training</a>
       <a class="text-white font-medium hover:text-blue-400 transition-colors duration-200 py-2 nav-link" href="#education">Education</a>
       <a class="text-white font-medium hover:text-blue-400 transition-colors duration-200 py-2 nav-link" href="#contact">Contact</a>
       <a href="https://drive.google.com/file/d/1QXDhaYfA1b9ot4g0FOJUDNl4Zk8AYUrT/view?usp=sharing" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-lg font-semibold transition-all duration-200 text-center">
@@ -466,7 +469,8 @@
     <div class="max-w-6xl mx-auto">
       <div class="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 md:p-12 border border-slate-700">
         <div class="flex flex-col md:flex-row items-start gap-10">
-          <div id="lottie-container-about" class="md:w-2/3 flex justify-center" style="width: 500px; height: 300px;"></div>
+          <div id="my-image" class="md:w-2/3 flex justify-center" style="width: 500px; height: 300px;"><img src="./Assets/my_img.jpg" alt="Image" class="rounded-[50%]"></div>
+          <!-- <div id="lottie-container-about" class="md:w-2/3 flex justify-center" style="width: 500px; height: 300px;"></div> -->
           <div class="md:w-[600px]">
             <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">About Me</h2>
             <div class="space-y-6">
@@ -484,8 +488,8 @@
     </section>
 
     <!-- ==================== TRAINING ================== -->
-    <section class="px-6 md:px-20 py-16 md:py-24 bg-gradient-to-b from-slate-900 to-slate-800 bg-slate-800">
-        <div class="ml-[200px] w-[1150px] flex border bg-gradient-to-r  from-slate-900 to-slate-700 rounded-xl space-x-10 p-10">
+    <section id="training" class="px-6 md:px-20 py-16 md:py-24 bg-gradient-to-b from-slate-900 to-slate-800 bg-slate-800">
+        <div class="ml-[110px] w-[1150px] flex border bg-gradient-to-r  from-slate-900 to-slate-700 rounded-xl space-x-10 p-10">
           <div class="p-6">
             <h3 class="text-3xl ml-20 font-bold text-white mb-4">Training</h3>
             <div class="mb-4 pb-4 ml-20 border-slate-700">
