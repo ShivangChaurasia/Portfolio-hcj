@@ -2,7 +2,10 @@
 
 This is my personal portfolio website built using **HTML, CSS, and JavaScript**.  
 It showcases my skills, projects, and background as a developer in a clean and responsive design.
-**Live Link** : https://shivangchaurasia.github.io/Portfolio-hcj/
+
+---
+
+Live Link : https://shivangchaurasia.github.io/Portfolio-hcj/
 ---
 
 ## 📌 About the Project
